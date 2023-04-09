@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>pro</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+      </div>
+      <!-- end loader -->
+      <div id="myNav" class="menu_sid">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <div class="menu_sid-content">
+            <a href="#protien">Our Protien</a>
+            <a href="#about">About Us</a>
+            <a href="#testimonial">Testimonial</a>
+            <a href="#contact">Contact Us</a>
+         </div>
+      </div>
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+         <div class="menu_sitbar">
+            <ul class="menu">
+               <li><button type="button" >
+                  <img onclick="openNav()" src="images/menu_icon.png" alt="#"/>
+                  </button>
+               </li>
+            </ul>
+            <ul class="social_icon">
+               <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+               <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+               <li><a href="javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+         </div>
+         <div class="header_full_bg">
+            <div class="header_top">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="logo">
+                           <a href="index.html"><img src="images/logo.png" alt="#"/></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="banner">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-5">
+                        <div class="banner_text">
+                           <h1>pro<br> body Builder Protien</h1>
+                           <a class="get_btn" onclick="connectMetamask()" role="button" >Login</a> 
+                           <a class="get_btn" href="#contact" role="button">Contact Us</a>
+                        </div>
+                     </div>
+                     <div class="col-md-7">
+                        <img class="bann_img" src="images/banner_ing.png" alt="#"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- our protien  -->
+      <div id="protien" class="protien_main">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Our Protiens</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-3 col-sm-6">
+                  <div class="protien">
+                     <figure><img src="images/pro1.png" alt="#"/></figure>
+                     <h3>$400</h3>
+                     <span> mass gainer  </span>
+                     <a class="read_more mar_top" onclick="depositContract()"> Buy Now</a> 
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                  <div class="protien">
+                     <figure><img src="images/pro2.png" alt="#"/></figure>
+                     <h3>$350</h3>
+                     <span>  whey isolate  </span>
+                     <a class="read_more mar_top" onclick="depositContract()"> Buy Now</a> 
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                  <div class="protien">
+                     <figure><img src="images/pro3.png" alt="#"/></figure>
+                     <h3>$300</h3>
+                     <span> whey concentrate </span>
+                     <a class="read_more mar_top" onclick="depositContract()"> Buy Now</a> 
+
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                  <div class="protien">
+                     <figure><img src="images/pro4.png" alt="#"/></figure>
+                     <h3>$250</h3>
+                     <span> creatine </span>
+                     <a class="read_more mar_top" onclick="depositContract()"> Buy Now</a> 
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end our protien  -->
+      <!-- about -->
+      <div id="about" class="about">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="titlepage">
+                     <h2>About Us</h2>
+                     <p>protein shakes are a really popular way of getting more protein into your everyday diet and thats important for all your fitness goals.we have got a range packed with the purest protein powders.</p>
+                     <a class="read_more" href="Javascript:void(0)"> Read More</a>
+                  </div>
+               </div>
+               <div class="col-md-6 pad_right0">
+                  <div class="about_img ">
+                     <figure><img src="images/about.png" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end about -->
+      <!-- growyhing -->
+      <div class="growyhing">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-6">
+                  <div class="body_img">
+                     <figure><img src="images/body.png" align="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="titlepage">
+                     <h2>build Your Body From pro Protien</h2>
+                     <a class="read_more" href="Javascript:void(0)"> Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end growyhing -->
+      <!-- testimonial -->
+      <div id="testimonial" class="testimonial">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Testimonial</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="body_blu_img">
+                     <figure><img src="images/tesr.png" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-7 pad_right0">
+                  <div class="testimo_ban_bg">
+                     <div id="testimo" class="carousel slide testimo_ban" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                           <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                           <li data-target="#testimo" data-slide-to="1"></li>
+                           <li data-target="#testimo" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                           <div class="carousel-item active">
+                              <div class="container">
+                                 <div class="carousel-caption relative2">
+                                    <div class="row d_flex">
+                                       <div class="col-md-11">
+                                          <i><img src="images/costu.png" alt="#"/></i>
+                                          <span> mark charles</span>
+                                          <p>our high quality protein shakes fit perfectly into any diet so you can find whats right for you.As Europe's no 1 online sports nutrition brand, we have unrivalled range of protein powders, and expert knowledge to guide you every step of the way. </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="carousel-item">
+                              <div class="container">
+                                 <div class="carousel-caption relative2">
+                                    <div class="row d_flex">
+                                       <div class="col-md-11">
+                                          <i><img src="images/costu.png" alt="#"/></i>
+                                          <span>Mark Charles</span>
+                                          <p> Junk food satisfies you for a minute. Being fit satisfies you for life. Explore our range of protein shakes and find the best protein powder for you </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="carousel-item">
+                              <div class="container">
+                                 <div class="carousel-caption relative2">
+                                    <div class="row d_flex">
+                                       <div class="col-md-11">
+                                          <i><img src="images/costu.png" alt="#"/></i>
+                                          <span>mark charles</span>
+                                          <p>So if you want to follow a diet plan, get on the Zone diet or Paleo diet and triple the protein requirements. Simple as that. Do so with protein powders and whole foods. Eat a ton of protein. Squat heavy. Push heavy objects</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                           <i class="fa fa-angle-left" aria-hidden="true"></i>
+                           <span class="sr-only">Previous</span>
+                           </a>
+                           <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                           <i class="fa fa-angle-right" aria-hidden="true"></i>
+                           <span class="sr-only">Next</span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end testimonial -->
+      <!--  contact -->
+      <div id="contact" class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Request a call back</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6 offset-md-3">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email " type="type" name="Email "> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Send</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end contact -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="daih_bg">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <ul class="conta">
+                           <li><i class="fa fa-phone" aria-hidden="true"></i> Call Now: +353123467890768</li>
+                           <li><i class="fa fa-map-marker" aria-hidden="true"></i> Location d100ukl, dublin100 </li>
+                           <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="#">markcharles58@gmail.com</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <img class="tex_left" src="images/logo2.png" alt="#"/>
+                  </div>
+                  <div class=" col-md-3 col-sm-6">
+                     <p class="variat">Whey protein isolate is a purer form of whey that contains more protein, less fat, and lactose. -Whey protein concentrate is a less processed form of whey that contains more fat and lactose.</p>
+                  </div>
+                  <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                     <h3>Information  </h3>
+                     <ul class="link_menu">
+                        <li>protein derived from milk</li>
+                        <li>per serving 25g of protein</li>
+                        <li>140 calories per serving </li>
+                        <li>plant based and animal based protein</li>
+                        <li>worlds first zero sugar based protein</li>
+                        <li>100 percent protein only 1 percent fat</li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                     <h3>Helpful Links</h3>
+                     <ul class="link_menu">
+                        <li>www.pro protein.com </li>
+                        <li>reddit@pro protein nutrition</li>
+                        <li>Mark charles founder.com</li>
+                        <li>pronutrition.ie </li>
+                        <li>proreseachlabs.ie </li>
+                        <li>cusomercare: proprotein.co.in</li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                     <h3>Supported</h3>
+                     <ul class="link_menu">
+                        <li.>co partners europe's      body building</li>
+                        <li>national fitness europe</li>
+                        <li>whey protein</li>
+                        <li>national nutrition support</li>
+                        <li>world fitness</li>
+                        <li>endura mass </li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-12">
+                     <ul class="social2_icon">
+                        <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script>
+         function openNav() {
+           document.getElementById("myNav").style.width = "100%";
+         }
+         
+         function closeNav() {
+           document.getElementById("myNav").style.width = "0%";
+         }
+      </script>
+      <script> // the below script code is convention in web3 in forming the communication with Web
+
+         let account;
+         const connectMetamask = async () => {
+             if(window.ethereum !== "undefined") {
+                 const accounts = await ethereum.request({method: "eth_requestAccounts"});
+                 account = accounts[0];
+                 connectContract();
+                 //document.getElementById("userArea").innerHTML = `User Account: ${account}`;
+             }
+         }
+ 
+         const connectContract = async () => {
+             const ABI =[
+    {
+       "inputs": [],
+       "name": "deposit",
+       "outputs": [],
+       "stateMutability": "payable",
+       "type": "function"
+    },
+    {
+       "inputs": [
+          {
+             "internalType": "address payable",
+             "name": "_to",
+             "type": "address"
+          },
+          {
+             "internalType": "uint256",
+             "name": "_amount",
+             "type": "uint256"
+          }
+       ],
+       "name": "withdraw",
+       "outputs": [],
+       "stateMutability": "nonpayable",
+       "type": "function"
+    },
+    {
+       "inputs": [],
+       "name": "getAddress",
+       "outputs": [
+          {
+             "internalType": "address",
+             "name": "",
+             "type": "address"
+          }
+       ],
+       "stateMutability": "view",
+       "type": "function"
+    },
+    {
+       "inputs": [],
+       "name": "getBalance",
+       "outputs": [
+          {
+             "internalType": "uint256",
+             "name": "",
+             "type": "uint256"
+          }
+       ],
+       "stateMutability": "view",
+       "type": "function"
+    }
+ ];
+             const Address = "0xcF221758aBC7279ee246066095e51FE5b6e21dd1"; // Taking Address from Remix 
+             window.web3 = await new Web3(window.ethereum);
+             window.contract = await new window.web3.eth.Contract(ABI, Address);
+             document.getElementById("contractArea").innerHTML = "Connected to Contract"; // calling the elementID above
+         }
+ 
+         const getContractAccount = async () => {
+             const data = await window.contract.methods.getAddress().call();
+             document.getElementById("contractAccount").innerHTML = `Contract Account: ${data}`;
+         }
+ 
+         const getBalanceApple = async () => { // const getBalanceApple is the HTML function & .contract.getBalance is the smart contract function
+             const data = await window.contract.methods.getBalance().call();
+             document.getElementById("balanceArea").innerHTML = `Contract Balance: ${data}`;
+         }
+ 
+         const depositContract = async () => {
+             const amount = 1;
+             await window.contract.methods.deposit().send({from: account, value: amount});
+         }
+ 
+         const withdraw = async () => {
+             const amount = document.getElementById("amountInput").value;
+             const address = document.getElementById("addressInput").value;
+             await window.contract.methods.withdraw(address, amount).send({from: account});
+         }
+ 
+     </script>
+   </body>
+</html>
